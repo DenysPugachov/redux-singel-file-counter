@@ -1,5 +1,5 @@
 {
-  "name": "app-redux",
+  "name": "redux-single-file-counter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
