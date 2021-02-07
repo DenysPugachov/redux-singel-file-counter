@@ -3,18 +3,12 @@ import ReactDOM from 'react-dom';
 import { Provider, connect } from "react-redux";
 import { createStore, combineReducers } from "redux";
 
-
-// Action Creators - You don't need to change these
 const increment = () => ({ type: 'increment' });
 const decrement = () => ({ type: 'decrement' });
-
 
 const mapStateToProps = state => {
   return { count: state.count };
 };
-
-// Only change code *before* me!
-// -----------
 
 const store = createStore(combineReducers({
   count: (count = 0, action) => {
